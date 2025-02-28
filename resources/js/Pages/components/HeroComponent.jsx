@@ -42,7 +42,7 @@ export default function HeroComponent(props) {
                         web and mobile applications using modern technologies
                         such as React, Next.js, and React Native. Proficient
                         with backend frameworks like FastAPI, Django, and
-                        Laravel (with Inertia.js). Adept in cloud
+                        Laravel (with Inertia.js). Skilled in cloud
                         infrastructure, CI/CD, and containerization tools
                         including Docker, Kubernetes, AWS, and Linux, ensuring
                         robust and reliable development pipelines.

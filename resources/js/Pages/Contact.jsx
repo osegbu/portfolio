@@ -32,9 +32,9 @@ export default function Contact() {
 
         axios
             .post("https://api.emailjs.com/api/v1.0/email/send", {
-                service_id: process.env.EMAILJS_SERVICE_ID,
+                service_id: "service_cshl87g",
                 template_id: "template_oq4f8qv",
-                user_id: process.env.EMAILJS_USER_ID,
+                user_id: "Icaw9uu5DZ6djNUbO",
                 template_params: templateParams,
             })
             .then((response) => {

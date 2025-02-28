@@ -54,7 +54,7 @@ export default function HeroComponent(props) {
                         variants={slideUpVariants}
                     >
                         <a
-                            href="/Obinna_Osegbu.pdf"
+                            href="/cv/OBINNA_OSEGBU.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

@@ -19,9 +19,9 @@
             "Sqlite"
         ],
         "images": [
-            "/images/social/social-media-1.png",
-            "/images/social/social-media-2.png",
-            "/images/social/social-media-3.png"
+            "/images/social-media-1.png",
+            "/images/social-media-2.png",
+            "/images/social-media-3.png"
         ],
         "demoLink": "https://zentri.vercel.app",
         "codeLink": "https://github.com/osegbu/zentri-nextjs"
@@ -44,10 +44,7 @@
             "Sqlite",
             "WebSocket"
         ],
-        "images": [
-            "/images/chat/chat-app-1.png",
-            "/images/chat/chat-app-2.png"
-        ],
+        "images": ["/images/chat-app-1.png", "/images/chat-app-2.png"],
         "demoLink": "https://vetra-nextjs.vercel.app",
         "codeLink": "https://github.com/osegbu/vetra-nextjs"
     },
@@ -61,9 +58,9 @@
         ],
         "technologies": ["PHP", "Laravel", "Inertia.js", "React", "SQLite"],
         "images": [
-            "/images/task/task-app-1.png",
-            "/images/task/task-app-2.png",
-            "/images/task/task-app-3.png"
+            "/images/task-app-1.png",
+            "/images/task-app-2.png",
+            "/images/task-app-3.png"
         ],
         "demoLink": "https://pixel-taskapp.up.railway.app/",
         "codeLink": "https://github.com/osegbu/pixel"

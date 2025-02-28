@@ -1,0 +1,33 @@
+body,
+html {
+  font-family: "Poppins", "Quicksand", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#app {
+  margin: auto;
+}
+.mainCover {
+  margin: auto;
+  background-color: white;
+  margin-top: 0px;
+}
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 16px;
+  background-color: #fafafa;
+}
+.socialMedia {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .mainCover .container {
+    gap: 16px;
+  }
+}

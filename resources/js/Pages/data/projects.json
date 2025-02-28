@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Social Media App",
+        "description": "A fully functional social media platform designed to help people connect and engage with each other. Users can create posts, comment, like, and participate in polls. The platform also features infinite scrolling, image uploads, and a responsive design.",
+        "features": [
+            "User authentication and authorization",
+            "Post, like, and comment features",
+            "Poll system for user engagement",
+            "Infinite scroll for seamless browsing",
+            "Image upload to posts",
+            "Responsive design for mobile and desktop"
+        ],
+        "technologies": [
+            "Javascript",
+            "React",
+            "NextJs",
+            "Python",
+            "FastAPI",
+            "Sqlite"
+        ],
+        "images": [
+            "/images/social/social-media-1.png",
+            "/images/social/social-media-2.png",
+            "/images/social/social-media-3.png"
+        ],
+        "demoLink": "https://zentri.vercel.app",
+        "codeLink": "https://github.com/osegbu/zentri-nextjs"
+    },
+    {
+        "title": "Chat App",
+        "description": "A real-time chat platform, allowing users to send and receive messages in real time. This application supports text and file sharing. It's designed with a responsive interface to ensure usability on mobile and desktop platforms, making it a flexible communication tool.",
+        "features": [
+            "Real-time WebSocket messaging for instant communication",
+            "User authentication and authorization for secure access",
+            "Image file sharing within chat conversations",
+            "Responsive design for all device sizes"
+        ],
+        "technologies": [
+            "Javascript",
+            "React",
+            "NextJs",
+            "Python",
+            "FastAPI",
+            "Sqlite",
+            "WebSocket"
+        ],
+        "images": [
+            "/images/chat/chat-app-1.png",
+            "/images/chat/chat-app-2.png"
+        ],
+        "demoLink": "https://vetra-nextjs.vercel.app",
+        "codeLink": "https://github.com/osegbu/vetra-nextjs"
+    },
+    {
+        "title": "Task Management System",
+        "description": "A robust task management system designed to help users organize, prioritize, and track tasks efficiently. This system allows users to create, edit, and delete tasks. The responsive design ensures a seamless user experience across all devices.",
+        "features": [
+            "User authentication and authorization for secure access",
+            "Task creation, editing, and deletion",
+            "Responsive design to support mobile and desktop users"
+        ],
+        "technologies": ["PHP", "Laravel", "Inertia.js", "React", "SQLite"],
+        "images": [
+            "/images/task/task-app-1.png",
+            "/images/task/task-app-2.png",
+            "/images/task/task-app-3.png"
+        ],
+        "demoLink": "https://pixel-taskapp.up.railway.app/",
+        "codeLink": "https://github.com/osegbu/pixel"
+    }
+]

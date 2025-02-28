@@ -1,0 +1,76 @@
+{
+    "services": [
+        {
+            "name": "Web Development",
+            "description": [
+                "Responsive websites tailored for performance.",
+                "Scalable web applications for growth.",
+                "User-friendly designs that enhance engagement."
+            ]
+        },
+        {
+            "name": "Mobile App Development",
+            "description": [
+                "Cross-platform apps using React Native.",
+                "Seamless experience across iOS and Android.",
+                "Optimized performance and smooth interactions."
+            ]
+        },
+        {
+            "name": "API Development & Integration",
+            "description": [
+                "Secure and scalable API design.",
+                "Efficient integration of third-party services.",
+                "Streamlined workflows and automation."
+            ]
+        },
+        {
+            "name": "UI/UX Design",
+            "description": [
+                "User-focused design for increased engagement.",
+                "Clean, modern, and intuitive interfaces.",
+                "Enhancing the user journey with intuitive layouts."
+            ]
+        },
+        {
+            "name": "Backend Development",
+            "description": [
+                "Server-side logic using Django, Laravel, FastAPI.",
+                "Scalable and secure backend architectures.",
+                "Optimized performance for robust systems."
+            ]
+        },
+        {
+            "name": "CI/CD Automation",
+            "description": [
+                "Automated pipelines using GitHub Actions.",
+                "Continuous integration and delivery with Docker.",
+                "Faster releases through Kubernetes automation."
+            ]
+        },
+        {
+            "name": "Cloud Deployment",
+            "description": [
+                "Cloud deployment solutions with AWS.",
+                "Efficient scaling using Docker and Kubernetes.",
+                "Secure cloud management and cost optimization."
+            ]
+        },
+        {
+            "name": "Consulting & Technical Support",
+            "description": [
+                "Expert guidance on technology stacks.",
+                "Ongoing support for smooth operations.",
+                "Best practices in development and architecture."
+            ]
+        },
+        {
+            "name": "SEO Optimization",
+            "description": [
+                "On-page SEO for increased visibility.",
+                "Technical SEO improvements for better rankings.",
+                "Boost traffic and enhance site performance."
+            ]
+        }
+    ]
+}

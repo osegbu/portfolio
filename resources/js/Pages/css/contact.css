@@ -1,0 +1,118 @@
+.contactCover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+section > div {
+    background-color: #fafafa;
+    border-radius: 4px;
+    padding: 16px;
+    font-size: 0.95rem;
+    line-height: 25px;
+}
+
+.howIHelp {
+    background-color: #fafafa;
+    border-radius: 4px;
+    padding: 16px;
+    font-size: 0.9rem;
+}
+h4 {
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+}
+div li {
+    padding: 2px 0;
+    list-style: none;
+}
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    padding: 8px 0;
+    list-style: disc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+form input,
+form textarea {
+    max-width: 100%;
+    border: 1px solid silver;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: black;
+    background-color: white;
+    outline: none;
+    transition: border 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    border: 1px solid #007bff;
+    background-color: #fff;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+.loading-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #ebeff3;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@media (max-width: 1200px) {
+    .contactCover {
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .contactCover {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}

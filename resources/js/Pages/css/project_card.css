@@ -1,0 +1,37 @@
+.singleProject {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer;
+}
+.projectImg {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    background-position: center;
+    background-color: black;
+}
+.projectImg img {
+    width: 100%;
+    object-fit: cover;
+}
+.bodyDiv {
+    padding: 16px;
+    text-align: center;
+}
+.projectTitle {
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.projectDescription {
+    font-size: 0.95rem;
+    margin-top: 12px;
+    line-height: 1.6;
+    color: #292929;
+}

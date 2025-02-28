@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+  user-select: none;
+}
+.header > div {
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+}
+.headerInner {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.navigation {
+  display: flex;
+  gap: 48px;
+}
+
+.header a {
+  color: black;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.header a.active {
+  color: orangered;
+}
+.menuBtn {
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .header .navigation {
+    display: none;
+  }
+  .headerInner {
+    padding: 8px 16px;
+  }
+  .menuBtn {
+    display: block;
+  }
+}

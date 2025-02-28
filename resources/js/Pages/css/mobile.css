@@ -1,0 +1,96 @@
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.MobileMenu {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: flex-end;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.mobileInner {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.mobileInner.slide-in {
+    animation-name: slideIn;
+}
+
+.mobileInner.slide-out {
+    animation-name: slideOut;
+}
+
+.closeMenu {
+    width: 100%;
+    text-align: right;
+    font-size: 0.9rem;
+    padding: 7.5px 0px;
+    border-bottom: 1px solid #dddcdc;
+}
+.closeMenu button {
+    border-radius: 50%;
+    border: none;
+    height: 32px;
+    width: 32px;
+    margin-right: 8px;
+    padding-top: 4px;
+}
+.closeMenu button:hover {
+    cursor: pointer;
+    background-color: silver;
+}
+.closeMenu button:active {
+    outline: 2px solid rgb(182, 181, 181);
+}
+.menuNavLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+.menuNavLinks a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+.menuNavLinks a:hover {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+.menuNavLinks a.active {
+    background-color: #f2f2f2;
+    color: orangered;
+    font-weight: bold;
+    border-radius: 4px;
+}

@@ -34,18 +34,18 @@ export default function HeroComponent(props) {
                         Hi, I am Obinna Osegbu
                     </motion.h1>
                     <motion.h2 variants={slideUpVariants}>
-                        I am a ...
-                        <br />
-                        FullStack Web Developer, Mobile App Developer, DevOps
-                        Engineer.
+                        I am a FullStack Developer, Mobile App Developer, and
+                        DevOps Engineer.
                     </motion.h2>
                     <motion.div className="skills" variants={slideUpVariants}>
-                        Skilled in building seamless web and mobile applications
-                        using React, Next.js, and React Native. Proficient in
-                        frameworks like FastAPI, Django, Laravel with
-                        Inertia.js, and tools like SQL Databases, Docker,
-                        Kubernetes, AWS, and Linux, ensuring efficient, scalable
-                        infrastructure.
+                        Experienced in building scalable and high-performance
+                        web and mobile applications using modern technologies
+                        such as React, Next.js, and React Native. Proficient
+                        with backend frameworks like FastAPI, Django, and
+                        Laravel (with Inertia.js). Adept in cloud
+                        infrastructure, CI/CD, and containerization tools
+                        including Docker, Kubernetes, AWS, and Linux, ensuring
+                        robust and reliable development pipelines.
                     </motion.div>
                     <motion.div
                         className="letsTalk"
@@ -53,21 +53,13 @@ export default function HeroComponent(props) {
                         whileTap={{ scale: 0.95 }}
                         variants={slideUpVariants}
                     >
-                        <Link href="" as="button">
-                            Let's Talk
-                            <motion.svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                height="24px"
-                                viewBox="0 -960 960 960"
-                                width="24px"
-                                fill="#FFFFFF"
-                                initial={{ rotate: 180 }}
-                                animate={{ rotate: 0 }}
-                                transition={{ duration: 0.5 }}
-                            >
-                                <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
-                            </motion.svg>
-                        </Link>
+                        <a
+                            href="/Obinna_Osegbu.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Open CV
+                        </a>
                     </motion.div>
                 </motion.div>
 

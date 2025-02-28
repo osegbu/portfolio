@@ -36,13 +36,13 @@
     margin-top: 16px;
     width: fit-content;
 }
-.letsTalk button {
+.letsTalk a {
     text-decoration: none;
     border-radius: 4px;
     background-color: black;
     color: white;
     font-size: 0.9rem;
-    padding: 12px 16px;
+    padding: 12px 24px;
     border: none;
     align-items: center;
     display: flex;
@@ -51,11 +51,11 @@
     gap: 16px;
     border-radius: 30px;
 }
-.letsTalk button:hover {
+.letsTalk a:hover {
     background-color: rgb(49, 49, 49);
     cursor: pointer;
 }
-.letsTalk button:active {
+.letsTalk a:active {
     background-color: rgb(71, 71, 71);
 }
 .svg {

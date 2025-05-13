@@ -40,7 +40,7 @@ A real-time chat application that enables users to send messages, images, and fi
     -   Support for image and file sharing
     -   Persistent chat history
 
-[View Project Demo](https://zentri.vercel.app)
+[View Project Demo](https://vetrachat.vercel.app)
 
 ---
 
